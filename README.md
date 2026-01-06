@@ -68,7 +68,7 @@ Ejemplo:
 
 "ConnectionStrings": {
 
-&nbsp; "ConexionSQL": "Server=TU\_SERVIDOR;Database=TiendaOnline;Trusted\_Connection=True;TrustServerCertificate=True"
+"ConexionSQL": "Server=TU\_SERVIDOR;Database=TiendaOnline;Trusted\_Connection=True;TrustServerCertificate=True"
 
 }
 
