@@ -1,0 +1,16 @@
+CREATE DATABASE TiendaOnline;
+GO
+
+USE TiendaOnline;
+GO
+
+CREATE TABLE Productos (
+    Id INT IDENTITY(1,1) PRIMARY KEY,
+    Nombre NVARCHAR(150) NOT NULL,
+    Descripcion NVARCHAR(500) NOT NULL,
+    PrecioBase DECIMAL(18,2) NOT NULL,
+    PrecioDescuento DECIMAL(18,2) NULL,
+    ImagenUrl NVARCHAR(300) NULL,
+    FechaCreacion DATETIME NOT NULL DEFAULT GETDATE()
+);
+GO

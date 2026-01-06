@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Chris\\source\\repos\\TiendaOnline\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{09E42A99-D916-4BD7-B2FB-7E7896300E95}|TiendaOnline.csproj|c:\\users\\chris\\source\\repos\\tiendaonline\\views\\productos\\crear.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{09E42A99-D916-4BD7-B2FB-7E7896300E95}|TiendaOnline.csproj|solutionrelative:views\\productos\\crear.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09E42A99-D916-4BD7-B2FB-7E7896300E95}|TiendaOnline.csproj|c:\\users\\chris\\source\\repos\\tiendaonline\\views\\productos\\editar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{09E42A99-D916-4BD7-B2FB-7E7896300E95}|TiendaOnline.csproj|solutionrelative:views\\productos\\editar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Editar.cshtml",
+              "DocumentMoniker": "C:\\Users\\Chris\\source\\repos\\TiendaOnline\\Views\\Productos\\Editar.cshtml",
+              "RelativeDocumentMoniker": "Views\\Productos\\Editar.cshtml",
+              "ToolTip": "C:\\Users\\Chris\\source\\repos\\TiendaOnline\\Views\\Productos\\Editar.cshtml",
+              "RelativeToolTip": "Views\\Productos\\Editar.cshtml",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAAAB0AAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-06T20:24:29.947Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Crear.cshtml",
+              "DocumentMoniker": "C:\\Users\\Chris\\source\\repos\\TiendaOnline\\Views\\Productos\\Crear.cshtml",
+              "RelativeDocumentMoniker": "Views\\Productos\\Crear.cshtml",
+              "ToolTip": "C:\\Users\\Chris\\source\\repos\\TiendaOnline\\Views\\Productos\\Crear.cshtml",
+              "RelativeToolTip": "Views\\Productos\\Crear.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-06T20:24:19.382Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

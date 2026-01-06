@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="../TiendaOnline.Tests/TiendaOnline.Tests.csproj" />
+  <Project Path="TiendaOnline.csproj" />
+</Solution>

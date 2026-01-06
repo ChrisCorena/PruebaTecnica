@@ -1,0 +1,62 @@
+﻿@model IEnumerable<TiendaOnline.Models.Producto>
+
+@{
+    ViewData["Title"] = "Productos";
+}
+
+<h2>Listado de Productos</h2>
+
+<p>
+    <a asp-action="Crear" class="btn btn-primary">Agregar Producto</a>
+</p>
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Nombre</th>
+            <th>Descripción</th>
+            <th>Precio Base</th>
+            <th>Precio Descuento</th>
+            <th>Imagen</th>
+            <th>Acciones</th>
+        </tr>
+    </thead>
+    <tbody>
+        @if (!Model.Any())
+        {
+            <tr>
+                <td colspan="5" class="text-center">
+                    No hay productos registrados.
+                </td>
+            </tr>
+        }
+        else
+        {
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.Nombre</td>
+                    <td>@item.Descripcion</td>
+                    <td>@item.PrecioBase</td>
+                    <td>@item.PrecioDescuento</td>
+                    <td>
+                        @if (!string.IsNullOrEmpty(item.ImagenUrl))
+                        {
+                            <img src="@item.ImagenUrl"
+                                 alt="Imagen del producto"
+                                 style="max-width:80px; max-height:80px;" />
+                        }
+                        else
+                        {
+                            <span>Sin imagen</span>
+                        }
+                    </td>
+                    <td>
+                        <a asp-action="Editar" asp-route-id="@item.Id">Editar</a> |
+                        <a asp-action="Eliminar" asp-route-id="@item.Id">Eliminar</a>
+                    </td>
+                </tr>
+            }
+        }
+    </tbody>
+</table>
